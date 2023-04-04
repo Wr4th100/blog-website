@@ -8,7 +8,7 @@ function Logo(props: any) {
       <Image className="rounded-full" 
         height={50}
         width={50}
-        src="https://links.papareact.com/1m8"
+        src="/ProfilePic.jpg"
         alt = "logo"
       />
       {renderDefault && <>{renderDefault(props)}</>}
