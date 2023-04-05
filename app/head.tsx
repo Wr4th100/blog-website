@@ -4,7 +4,7 @@ export default function Head() {
     <>
       <title>Roshan's Blog</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/roshanicon.ico" />
     </>
   )
 }
