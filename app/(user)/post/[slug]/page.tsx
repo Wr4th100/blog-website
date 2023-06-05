@@ -95,9 +95,9 @@ const PostPage = async ({ params: { slug } }: Props) => {
           </section>
         </div>
       </section>
-
-      <PortableText value={post.body} components={RichTextComponents}/>
-
+      <section className="px-32 pt-10"> 
+        <PortableText value={post.body} components={RichTextComponents}/>
+      </section>
     </article>
   );
 };

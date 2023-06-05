@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "ikaros": ['var(--ikaros-regular)']
+        "ikaros": ['var(--ikaros-regular)'],
+        "inter": ['var(--inter-variable)'],
       },
     },
   },
